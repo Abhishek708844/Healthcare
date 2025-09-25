@@ -1,6 +1,8 @@
 HOW TO RUN:
 1)Clone the Repository
+
 git clone https://github.com/Abhishek708844/Healthcare.git
+
 cd Healthcare
 
 2) Create AND OPEN Virtual Environment
