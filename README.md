@@ -65,7 +65,7 @@ python manage.py runserver
 API Endpoints
 
 
-Authentication
+# Authentication
 POST /api/auth/register/ - User registration
 
 POST /api/auth/login/ - User login (get JWT token)
@@ -74,7 +74,7 @@ POST /api/auth/login/ - User login (get JWT token)
 
 
 
-Patients
+# Patients
 POST /api/patients/ - Create patient (Authenticated)
 
 GET /api/patients/ - List patients (Authenticated)
@@ -90,7 +90,7 @@ DELETE /api/patients/{id}/ - Delete patient
 
 
 
-Doctors
+# Doctors
 POST /api/doctors/ - Create doctor (Authenticated)
 
 GET /api/doctors/ - List all doctors
@@ -107,7 +107,7 @@ DELETE /api/doctors/{id}/ - Delete doctor
 
 
 
-Patient-Doctor Mapping
+# Patient-Doctor Mapping
 POST /api/mappings/ - Assign doctor to patient
 
 GET /api/mappings/ - List all mappings
