@@ -1,11 +1,11 @@
-HOW TO RUN:
-1)Clone the Repository
+# HOW TO RUN:
+# 1)Clone the Repository
 
 git clone https://github.com/Abhishek708844/Healthcare.git
 
 cd Healthcare
 
-2) Create AND OPEN Virtual Environment
+# 2) Create AND OPEN Virtual Environment
 
 # Windows
 python -m venv venv
@@ -17,17 +17,17 @@ python3 -m venv venv
 
 source venv/bin/activate
 
- 3) NAVIGATE TO root DIRECTORY SAME AS MANAGE.PY
+ # 3) NAVIGATE TO root DIRECTORY SAME AS MANAGE.PY
 
  cd healthcare_backend  
 
 
- 4) Install Dependencies
+# 4) Install Dependencies
 
  pip install -r requirements.txt
 
 
- 5) Create a .env file in the project root same as manage.py:
+# 5) Create a .env file in the project root same as manage.py:
  
  .env TEMPLATE
 
@@ -48,19 +48,19 @@ DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
 
 
- 6) Run Migrations
+# 6) Run Migrations
 
 python manage.py makemigrations
 
 python manage.py migrate
 
 
-7) RUN SERVER
+# 7) RUN SERVER
 
 python manage.py runserver
 
 
-8) CHECK ALL ENDPOINTS IN POSTMAN 
+# 8) CHECK ALL ENDPOINTS IN POSTMAN 
 
 API Endpoints
 
