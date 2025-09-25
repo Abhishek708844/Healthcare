@@ -72,6 +72,8 @@ POST /api/auth/login/ - User login (get JWT token)
 
 
 
+
+
 Patients
 POST /api/patients/ - Create patient (Authenticated)
 
@@ -86,6 +88,8 @@ DELETE /api/patients/{id}/ - Delete patient
 
 
 
+
+
 Doctors
 POST /api/doctors/ - Create doctor (Authenticated)
 
@@ -96,6 +100,8 @@ GET /api/doctors/{id}/ - Get doctor details
 PUT /api/doctors/{id}/ - Update doctor
 
 DELETE /api/doctors/{id}/ - Delete doctor
+
+
 
 
 
